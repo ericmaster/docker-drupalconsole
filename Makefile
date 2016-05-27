@@ -6,13 +6,13 @@ build-base:
 	docker build -t drupalconsole/console:base base
 	docker build -t drupalconsole/console:base-alpine base/alpine
 	docker build -t drupalconsole/console:base-php5 base/php5
-	docker build -t drupalconsole/console:base-php5-alpine base/php5-alpine
+	docker build -t drupalconsole/console:base-php5-alpine base/php5/alpine
 
 build-master: build-base
 	docker build -t drupalconsole/console:master master
 	docker build -t drupalconsole/console:master-alpine master/alpine
 	docker build -t drupalconsole/console:master-php5 master/php5
-	docker build -t drupalconsole/console:master-php5-alpine master/php5-alpine
+	docker build -t drupalconsole/console:master-php5-alpine master/php5/alpine
 
 test-master:
 	@echo -n "master\t\t\t"
