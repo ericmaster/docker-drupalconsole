@@ -1,5 +1,5 @@
 # Drupal Console Docker Container
-FROM drupalconsole/console:base-php5
+FROM drupalconsole/console:base-php5-alpine
 MAINTAINER William Hearn <sylus1984@gmail.com>
 
 # Set the Drupal Console version.
