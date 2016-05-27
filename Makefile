@@ -28,7 +28,7 @@ build-1.0: build-base
 	docker build -t drupalconsole/console:1.0 1.0
 	docker build -t drupalconsole/console:1.0-alpine 1.0/alpine
 	docker build -t drupalconsole/console:1.0-php5 1.0/php5
-	docker build -t drupalconsole/console:1.0-php5-alpine 1.0/php5-alpine
+	docker build -t drupalconsole/console:1.0-php5-alpine 1.0/php5/alpine
 
 test-1.0:
 	@echo -n "1.0\t\t\t"
