@@ -1,6 +1,6 @@
 # Drupal Console Docker Container
 FROM composer/composer
-MAINTAINER Rob Loach <robloach@gmail.com>
+MAINTAINER William Hearn <sylus1984@gmail.com>
 
 # Add common extensions
 RUN apt-get update && apt-get install -y \

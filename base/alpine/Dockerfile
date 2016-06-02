@@ -1,6 +1,6 @@
 # Drupal Console Docker Container
 FROM composer/composer:alpine
-MAINTAINER Rob Loach <robloach@gmail.com>
+MAINTAINER William Hearn <sylus1984@gmail.com>
 
 # Add common extensions
 RUN apk --update add \
