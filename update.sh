@@ -24,7 +24,8 @@ function writeFiles {
 		targetDir="$shortVersion"
 		template=Dockerfile.template
 	else
-		targetDir="$shortVersion/$variant"
+		dir=`echo "$variant" | sed -r 's/[-]+/\//g'`
+		targetDir="$shortVersion/$dir"
 		template=Dockerfile-$variant.template
 	fi
 
